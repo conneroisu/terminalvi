@@ -1,5 +1,4 @@
-# terminalvi
-Dataset labeling and viewing for machine learning engineers for use in headless environments. Utilizes terminal multiplexer to efficiently show videos and allow gradings, ratings, deletion flags, and more. 
+
 
 # TerminalVi
 
