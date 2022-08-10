@@ -12,7 +12,7 @@ To DO:
 - [x]  selection system
 - [x]  deletion-mark system
 - [ ]  timed sequences(16s) transcript tool
-- [ ]  
+
 
 ## Modal
 
@@ -29,7 +29,8 @@ To DO:
 Command to enact:
 
 ```bash
-$    terminalvi 
+$    terminalvi new-session -s terminalvi
+$    python3 start.py
 
 ```
 
