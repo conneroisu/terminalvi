@@ -32,6 +32,17 @@ $    terminalvi new-session -s terminalvi
 $    python3 start.py
 
 ```
+# tvp update
+
+While the video player has the property of automatic scaling with the tmux environment with <Ctrl-+> or <Ctrl - >The video player also manages to get 11 "pixels" (effectively) out of every character as opposed to the usual 2 pixels by using the unicode quarter block characters. The pixels however aren't really independent, and each character is still limited to two colours.
+
+```bash
+$ git clone https://github.com/TheRealOrange/terminalvideoplayer.git
+$ cd terminalcideoplayer/
+$ g++ src/main.cpp src/video.cpp -Iinc/ -std=c++17 -O3 -o tvp -lavformat -lavcodec -lavutil -lswscale
+```
+
+Prerequisites:
 
 ## libtmux notes
 
